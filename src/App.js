@@ -39,8 +39,8 @@ class App extends React.Component {
 		let todos = this.state.list.map((item) => {
 			return (
 				<li key={item.id}>
-					<input type="checkbox" /> {item.todo}
-					<button onClick={() => this.deleteItem(item.id)}>
+					<input type="checkbox" className="form-control"/> {item.todo}
+					<button className="btn btn-danger" onClick={() => this.deleteItem(item.id)}>
 						delete
 					</button>
 				</li>
@@ -52,6 +52,7 @@ class App extends React.Component {
 					<h1>TODO APP</h1>
 					{/* {this.state.newItem} */}
 					<input
+			                        className="form-control"
 						type="text"
 						value={this.state.newItem}
 						onChange={(event) =>
@@ -59,6 +60,7 @@ class App extends React.Component {
 						}
 					/>
 					<button
+						className="btn btn-danger"
 						onClick={this.addItem}
 						disabled={!this.state.newItem}
 					>
