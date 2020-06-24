@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Img from './marvel_avengers_01-1920x1080.jpg';
+
 class App extends React.Component {
 	constructor(props) {
 		super(props);
@@ -49,7 +49,7 @@ class App extends React.Component {
 		return (
 			<div className="App">
 				<div className="container">
-			          <img src={Img} alt="testImg"/>
+			      
 					<h1 className="btn btn-outline-primary">NK TODO APP</h1>
 					{/* {this.state.newItem} */}
 					<input
