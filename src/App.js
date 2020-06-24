@@ -49,7 +49,7 @@ class App extends React.Component {
 		return (
 			<div className="App">
 				<div className="container">
-					<h1>TODO APP</h1>
+					<h1 className="bg bg-info">TODO APP</h1>
 					{/* {this.state.newItem} */}
 					<input
 			                        className="form-control"
