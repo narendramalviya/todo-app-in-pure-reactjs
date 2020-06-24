@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Img from './testimg.jpg';
+import Img from './marvel_avengers_01-1920x1080.jpg';
 class App extends React.Component {
 	constructor(props) {
 		super(props);
